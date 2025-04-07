@@ -1,0 +1,17 @@
+variables:
+  StorageAccountName: ragsearchpocsa01
+  StorageAccountUrl: https://ragsearchpocsa01.blob.core.windows.net/
+  ContainerName: landing
+  AzureOpenAiEndpoint: https://ragsearchpocopenai.openai.azure.com/
+  AzureOpenAiEmbeddingDeploymentName: text-embedding-ada-002
+  AzureOpenAiModelName: text-embedding-ada-002
+  AzureOpenAiModelDimensions: 1536
+  SearchEndpoint: https://ragsearchpocsch.search.windows.net
+  AzureAIServicesEndpoint: https://ragsearchpocaisvc.cognitiveservices.azure.com/
+  IndexName: ragsearch
+  TestQuery: "What is best phone for gaming?"
+  IndexerInterval: "PT1H"
+  SubscriptionId: aef434fb-23a3-4502-9be1-9f3947dec48a
+  ResourceGroupName: ragsearchpoc
+  use_ocr: false
+  use_document_layout: true
